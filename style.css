@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #e1dccb;
+}
+header .heading h1{
+    text-align: center;
+    color: #5f0c0c;
+}
+
+main{
+    width: 80%;
+    margin: 1rem auto;
+}
+.content2 h2,.content3 h2{
+    background-color: #5f0c0c;
+    color:aliceblue;
+    margin-top: 1rem;
+    padding: .5rem;
+    text-align: left;
+    border-radius: 10px 10px 0px 0px;
+}
+.content1 p{
+    text-align: justify;
+}
+
+.content2 ul,.content3 ul{
+    margin-top:.2rem;
+    list-style-type: none;
+}
+
+.content2 li,.content3 li{
+    padding-top: .6rem;
+}
+
+.content1,.content2 ul,.content3 ul{
+    background-color: #eae5d47d;
+    border-radius: 5px;
+    padding: .5rem;
+}
